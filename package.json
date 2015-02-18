@@ -1,9 +1,11 @@
 {
-  "name": "jquery-plugin",
+  "name": "embedly-jquery",
   "version": "0.0.0-ignored",
   "engines": {
     "node": ">= 0.6.0"
   },
+  "main": "jquery.embedly.js",
+  "repository": "https://github.com/quirkyinc/embedly-jquery",
   "scripts": {
     "test": "grunt qunit"
   },

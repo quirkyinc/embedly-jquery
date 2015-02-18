@@ -1,8 +1,10 @@
+var $ = require('jquery');
+
 /*! Embedly jQuery - v3.1.1 - 2013-06-05
  * https://github.com/embedly/embedly-jquery
  * Copyright (c) 2013 Sean Creeley
  * Licensed BSD
- */ 
+ */
 (function($) {
 
   /*
@@ -525,3 +527,5 @@
   };
 
 }(jQuery, window));
+
+module.exports = $.fn.embedly;
